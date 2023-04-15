@@ -1,0 +1,101 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #BAAEAE;
+}
+
+.header {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 15rem;
+}
+
+select {
+    width: 27.5rem;
+    height: 9rem;
+    margin-right: 2rem;
+    border-radius: 3rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 2.5rem;
+    padding-left: 2rem;
+}
+
+
+.header > img {
+    width: 14rem;
+    height: 14rem;
+    position: absolute;
+    bottom: -14rem;
+    right: 46.5%;
+}
+
+
+
+.community-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(235, 233, 233, 0.51), rgba(235, 233, 233, 0.51)),linear-gradient(0deg, #F7F7F7, #F7F7F7);
+    border-radius: 1rem;
+    width: 95%;
+    height: 34rem;
+    margin-top: 25rem;
+}
+
+.community-container > div {
+    margin-right: 7rem;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 400;
+    transition: 0.3s;
+
+}
+
+.community-container > div:hover{
+    scale: 1.2;
+    cursor: pointer;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 10rem;
+}
+
+.footer .media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 14rem;
+    margin-left: 3rem;
+}
+
+.footer .media li {
+    transition: 0.4s;
+}
+
+.footer .media li:hover{
+    scale: 1.2;
+}
+
+.footer .see-more {
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+    font-size: 1.6rem;
+}
+
+.footer .see-more:hover {
+    cursor: pointer;
+}
+
+.footer .see-more h2{
+margin-left: 1.2rem;
+}
