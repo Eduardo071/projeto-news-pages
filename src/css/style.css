@@ -40,4 +40,10 @@
     font-size: 3rem;
     font-weight: 400;
     color: #520705;
+    transition: 0.5s;
+}
+
+.principal .menu-buttons > a:hover {
+    scale: 1.2;
+    cursor: pointer;
 }

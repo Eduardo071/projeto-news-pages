@@ -30,8 +30,22 @@ select {
     height: 14rem;
     position: absolute;
     bottom: -14rem;
-    right: 46.5%;
+    right: 48%;
+    animation: out-scaled 0.6s;
+
 }
+
+@keyframes out-scaled {
+    0% {
+        scale: 5;
+        bottom: -60rem;
+    }
+    100% {
+        scale: 1;
+    }
+    
+}
+
 
 
 
@@ -53,6 +67,10 @@ select {
     font-weight: 400;
     transition: 0.3s;
 
+}
+
+.community-container > div:last-child {
+    margin-right: 0;
 }
 
 .community-container > div:hover{
@@ -98,4 +116,29 @@ select {
 
 .footer .see-more h2{
 margin-left: 1.2rem;
+}
+
+container-illustration {
+    position: absolute;
+    top: 25%;
+
+    display: flex;
+    width: 92rem;
+    height: 58rem;
+    border-radius: 7rem;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    animation: up 1.5s;
+
+
+}
+
+@keyframes up {
+    0% {
+        top: -100%;
+    }
+}
+
+.close {
+    display: none;
 }
