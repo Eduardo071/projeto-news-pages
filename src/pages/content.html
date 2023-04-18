@@ -24,12 +24,12 @@
         <div class="select-first-division">
 
             <select name="topics" id="topics">
-                <option value="" disabled selected hidden>Assuntos</option>
+                <option id="defaultOption" value="" disabled selected hidden>Assuntos</option>
                 <option id="cnbOption" value="crime-no-Brasil">Crime no Brasil</option>
 
             </select>
 
-            <select name="vestibular" id="vestibular">
+            <select name="vestibular" id="vestibular" disabled>
                 <option value="" disabled selected hidden>Vestibular</option>
 
             </select>
@@ -40,12 +40,12 @@
 
         <div class="select-last-division">
 
-            <select name="enem" id="enem">
+            <select name="enem" id="enem" disabled>
                 <option value="" disabled selected hidden>Enem</option>
 
             </select>
 
-            <select name="Notices" id="Notices">
+            <select name="Notices" id="notices" disabled>
                 <option value="" disabled selected hidden>Notícias</option>
 
             </select>
@@ -87,7 +87,20 @@
 
     </section>
 
-    <div class="close" id="container-illustration"></div>
+    <section class="container-illustration close">
+        <header class="header-illustration">
+            <img class="logo" src="../images/logo.png" alt="mini logo">
+            <div class="searchBar">
+                <img class="searchIcon" src="../images/search-icon.png" alt="search icon">
+                <h2 class="subtitle">Crime no Brasil</h2>
+            </div>
+            <img id="close-button" src="../images/close.png" alt="symbol X">
+        </header>
+        <main>
+            <img class="paint" src="../images/arte.png" alt="painting in the wall">
+            <a class="newsLink" href="/src/pages/news.html">Começar</a>
+        </main>
+    </section>
 
     <footer class="footer">
         <ul class="media">

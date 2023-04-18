@@ -1,0 +1,42 @@
+@media (max-width: 1050px) {
+    p {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 850px) {
+    h2{
+        font-size: 2rem;
+    }
+
+    img {
+        width: 30rem;
+    }
+}
+
+@media (max-width: 600px) {
+
+    img {
+        width: 20rem;
+    }
+}
+
+@media (max-width: 450px) {
+
+    h2 {
+        font-size: 1.6rem;
+        margin: 2.7rem;
+    }
+
+    figure{
+        flex-direction: column;
+    }
+
+    img {
+        width: 40rem;
+    }
+
+    .back-button > img {
+        margin-right: 0.5rem;
+    }
+}

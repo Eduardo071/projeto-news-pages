@@ -11,7 +11,8 @@
     justify-content: space-evenly;
     align-items: center;
     width: 100vw;
-    height: 15rem;
+    height: auto;
+    margin-top: 2rem;
 }
 
 select {
@@ -20,17 +21,23 @@ select {
     margin-right: 2rem;
     border-radius: 3rem;
     font-family: 'JetBrains Mono', monospace;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     padding-left: 2rem;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('../images/Vector.png');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 2rem) center;
+    
 }
 
-
-.header > img {
+.header>img {
     width: 14rem;
     height: 14rem;
     position: absolute;
     bottom: -14rem;
-    right: 48%;
+    left: 46.5%;
     animation: out-scaled 0.6s;
 
 }
@@ -40,10 +47,11 @@ select {
         scale: 5;
         bottom: -60rem;
     }
+
     100% {
         scale: 1;
     }
-    
+
 }
 
 
@@ -53,14 +61,14 @@ select {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(0deg, rgba(235, 233, 233, 0.51), rgba(235, 233, 233, 0.51)),linear-gradient(0deg, #F7F7F7, #F7F7F7);
+    background: linear-gradient(0deg, rgba(235, 233, 233, 0.51), rgba(235, 233, 233, 0.51)), linear-gradient(0deg, #F7F7F7, #F7F7F7);
     border-radius: 1rem;
     width: 95%;
     height: 34rem;
     margin-top: 25rem;
 }
 
-.community-container > div {
+.community-container>div {
     margin-right: 7rem;
     text-align: center;
     font-size: 2.4rem;
@@ -69,11 +77,11 @@ select {
 
 }
 
-.community-container > div:last-child {
+.community-container>div:last-child {
     margin-right: 0;
 }
 
-.community-container > div:hover{
+.community-container>div:hover {
     scale: 1.2;
     cursor: pointer;
 }
@@ -99,7 +107,7 @@ select {
     transition: 0.4s;
 }
 
-.footer .media li:hover{
+.footer .media li:hover {
     scale: 1.2;
 }
 
@@ -114,23 +122,82 @@ select {
     cursor: pointer;
 }
 
-.footer .see-more h2{
-margin-left: 1.2rem;
+.footer .see-more h2 {
+    margin-left: 1.2rem;
 }
 
-container-illustration {
+.container-illustration {
     position: absolute;
     top: 25%;
 
     display: flex;
+    flex-direction: column;
     width: 92rem;
     height: 58rem;
     border-radius: 7rem;
-    background-color: #ffffff;
+    background-color: #e9dddd;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     animation: up 1.5s;
 
 
+}
+
+.header-illustration {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+    margin-bottom: 1rem;
+}
+
+
+.logo {
+    width: 8rem;
+    height: 8rem;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    background-color: #BAAEAE;
+    width: 58rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    padding-left: 2rem;
+    
+}
+
+.searchIcon{
+    width: 1.6rem;
+}
+.subtitle {
+    margin-left: 2rem;
+}
+
+#close-button:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.container-illustration main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BAAEAE;
+    width: 27rem;
+    height: 5rem;
+    margin-top: 1.4rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    border-radius: 1rem;
+    color: #000;
 }
 
 @keyframes up {
@@ -141,4 +208,8 @@ container-illustration {
 
 .close {
     display: none;
+}
+
+.backFreeze {
+    overflow-y: hidden;
 }
