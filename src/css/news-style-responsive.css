@@ -5,7 +5,7 @@
 }
 
 @media (max-width: 850px) {
-    h2{
+    h2 {
         font-size: 2rem;
     }
 
@@ -28,15 +28,39 @@
         margin: 2.7rem;
     }
 
-    figure{
+    figure {
         flex-direction: column;
     }
 
     img {
-        width: 40rem;
+        width: 35rem;
     }
 
-    .back-button > img {
+    section {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    p {
+        max-width: 35rem;
+    }
+
+    .back-button {
+        left: 1.4rem;
+        top: 2.2rem;
+    }
+
+    .back-button>img {
         margin-right: 0.5rem;
+    }
+}
+
+@media (max-width: 400px) {
+    p {
+        max-width: 32rem;
+    }
+
+    .back-button {
+        left: 1rem;
     }
 }
