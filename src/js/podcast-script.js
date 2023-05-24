@@ -105,4 +105,9 @@ containerVideoSec.innerHTML = `
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen></iframe>
     <h2 class="tituloVideoSec">A violência no Brasil explicada por Sergio Adorno | Entrevista Completa</h2>
+</div>
+
+<div class="videoSec">
+<iframe width="500" height="280" src="https://www.youtube.com/embed/95pzBaqQdk8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<h2 class="tituloVideoSec">Série: História da Violência no Rio de Janeiro - A história das Organizações Criminosas</h2>
 </div>`

@@ -90,8 +90,6 @@
 }
 
 .container .complementaryVideos {
-    width: 60rem;
-    height: 150rem;
     margin-top: 8rem;
     display: flex;
     flex-direction: column;
@@ -103,11 +101,7 @@
 }
 
 .container .complementaryVideos .cvContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 95%;
-    height: 120rem;
+    height: 190rem;
 }
 
 .videoSec {
