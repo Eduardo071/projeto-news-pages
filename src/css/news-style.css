@@ -35,7 +35,20 @@ section {
     display: flex;
     align-items: center;
     color: #520705;
-    
+    animation: moveLeft 1s infinite;
+}
+
+
+@keyframes moveLeft{
+    0% {
+        left: 2rem;
+    }
+    50%{
+        left: 3rem;
+    }
+    100% {
+        left: 2rem;
+    }
 }
 
 .back-button > img {
@@ -43,18 +56,22 @@ section {
 }
 
 .left-arrow {
-    width: 3rem;
-    height: 3rem;
+    width: 4rem;
+    height: 4rem;
 }
 
 .back-text {
-    font-size: 1.5rem;
+    font-size: 4rem;
 }
 
 .criminologia-no-brasil {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.criminologia-no-brasil h2 {
+    font-size: 6rem;
 }
 
 figure {

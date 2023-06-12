@@ -59,6 +59,27 @@
     border-radius: 3rem;
 }
 
+.container .principalVideos .videosHeader .searchBar .searchText {
+    width: 15ch;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: #000f 2.4px solid;
+    animation: typing 2s steps(10), blinking 0.5s infinite step-end alternate;
+
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blinking {
+    50% {
+        border-color: transparent;
+    }
+}
+
 .container .principalVideos .videosHeader .searchIcon {
     width: 2rem;
     height: 2rem;

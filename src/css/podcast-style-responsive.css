@@ -33,6 +33,11 @@
     .container .principalVideos .videosHeader .searchBar {
         width: 22rem;
     }
+
+    .container .principalVideos .videosHeader .searchBar .searchText {
+        animation: none;
+        border: none;
+    }
     
     .container .principalVideos .videosHeader .close {
         width: 2rem;

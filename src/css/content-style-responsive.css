@@ -43,6 +43,10 @@
         top: 10%;
     }
 
+    .container-illustration .newsLink:hover {
+        scale: 1.1;
+    }
+
 }
 
 @media (max-width: 992px) {

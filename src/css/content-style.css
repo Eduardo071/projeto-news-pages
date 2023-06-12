@@ -129,7 +129,6 @@ select {
 .container-illustration {
     position: absolute;
     top: 25%;
-
     display: flex;
     flex-direction: column;
     width: 92rem;
@@ -171,8 +170,27 @@ select {
 .searchIcon{
     width: 1.6rem;
 }
+
 .subtitle {
     margin-left: 2rem;
+    border-right: #000f 2.4px solid;
+    width: 15ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(10), blinking 0.5s infinite step-end alternate;
+    animation-delay: 0.8s;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blinking {
+    50% {
+        border-color: transparent;
+    }
 }
 
 #close-button:hover {

@@ -1,4 +1,9 @@
 @media (max-width: 1050px) {
+    
+    .back-button {
+        display: none;
+    }
+
     p {
         font-size: 2rem;
     }
@@ -23,6 +28,11 @@
 
 @media (max-width: 450px) {
 
+    .criminologia-no-brasil h2 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
     h2 {
         font-size: 1.6rem;
         margin: 2.7rem;
@@ -45,22 +55,10 @@
         max-width: 35rem;
     }
 
-    .back-button {
-        left: 1.4rem;
-        top: 2.2rem;
-    }
-
-    .back-button>img {
-        margin-right: 0.5rem;
-    }
 }
 
 @media (max-width: 400px) {
     p {
         max-width: 32rem;
-    }
-
-    .back-button {
-        left: 1rem;
     }
 }
